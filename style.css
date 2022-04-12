@@ -1,0 +1,26 @@
+h1 {color: chartreuse;text-decoration: underline;
+    background-color: black;
+}
+section {
+
+    display: grid;
+
+    grid-template-columns: 70%;
+
+    grid-template-rows: 5%;
+
+    grid-template-areas: unset;
+
+    justify-content: center;
+
+}
+
+p{font-style: italic; background-color: burlywood;
+}
+
+ol li{text-decoration: underline;list-style: circle;}
+body {
+    background-image: url("images/images.jfif")
+    ; background-repeat: no-repeat;background-color: darksalmon;background-size: cover; background-attachment: fixed;
+}
+.image {width: 50%;}
