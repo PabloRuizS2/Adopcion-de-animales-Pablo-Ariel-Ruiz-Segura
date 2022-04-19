@@ -1,10 +1,9 @@
-h1 {color: chartreuse;text-decoration: underline;
-    background-color: black;
+h1 {color:black;text-decoration: underline;
     animation-duration: 2s;
     animation-name:aparecer; 
     animation-iteration-count:initial;
 }
-section {
+.inicio {
 
     display: grid;
 
@@ -19,12 +18,17 @@ section {
     animation-name:aparecer; 
     animation-iteration-count:initial;
 }
-
+.image {width: 50%;}
+header{ display: grid;
+    grid-template-columns: 30%;
+    grid-template-rows: 30%;
+   grid-template-areas:unset;
+}
 p{font-style: italic; background-color: burlywood;
 }
 
 ol li{text-decoration: underline;list-style: circle;}
-body {
+body{
     background-image: url("imagenes/img\ de\ fondo.jpg")
     ; background-repeat: no-repeat;background-color: darksalmon;background-size: cover; background-attachment: fixed;
 }
