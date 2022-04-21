@@ -1,3 +1,4 @@
+
 h1 {color:black;text-decoration: underline;
     animation-duration: 2s;
     animation-name:aparecer; 
@@ -29,7 +30,7 @@ p{font-style: italic; background-color: burlywood;
 
 ol li{text-decoration: underline;list-style: circle;}
 body{
-    background-image: url("imagenes/img\ de\ fondo.jpg")
+    background-image: url("../imagenes/img\ de\ fondo.jpg")
     ; background-repeat: no-repeat;background-color: darksalmon;background-size: cover; background-attachment: fixed;
 }
 header {transform: translate(20px, 20px);
