@@ -1,11 +1,75 @@
 
-h1 {color:black;text-decoration: underline;
-    animation-duration: 2s;
-    animation-name:aparecer; 
-    animation-iteration-count:initial;
-}
+.principio {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+  
+  .principio {
+    width: 100%;
+    padding: 40px;
+    color: white;
+    text-align: center;
+    background: #f04949;
+  }
+  
+  nav ul {
+    background: #fca8e3;
+    text-align: center;
+    list-style: none;
+    overflow: hidden;
+  
+  }
+  nav
+  
+  ul li {
+    display: inline-block;
+    padding: 20px;
+    transition: all ease-in-out 250ms;
+  }
+  
+  ul li:hover {
+    background: #112d4e;
+  }
+  
+  ul li a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .hide {
+    padding: 16px;
+    font-size: 22px;
+    background: #112d4e;
+    color: white;
+    cursor: pointer;
+    display: none;
+  }
+  
+  @media (max-width: 768px) {
+    ul li {
+      width: 100%;
+      padding: 15px;
+      text-align: left;
+    }
+  
+    .hide {
+      display: block;
+    }
+  
+    nav ul {
+    display: none;
+  
+    }
+  }
 .inicio {
 
+    position: relative;
+    top: 40px;
     display: grid;
 
     grid-template-columns: 70%;
@@ -19,12 +83,9 @@ h1 {color:black;text-decoration: underline;
     animation-name:aparecer; 
     animation-iteration-count:initial;
 }
-.image {width: 50%;}
-header{ display: grid;
-    grid-template-columns: 30%;
-    grid-template-rows: 30%;
-   grid-template-areas:unset;
-}
+.image {position: relative;
+    width: 70%;}
+
 p{font-style: italic; background-color: burlywood;
 }
 
@@ -32,7 +93,7 @@ ol li{text-decoration: underline;list-style: circle;}
 body{
     background-image: url("../imagenes/img\ de\ fondo.jpg")
     ; background-repeat: no-repeat;background-color: darksalmon;background-size: cover; background-attachment: fixed;
-}
+}  
 header {transform: translate(20px, 20px);
 
 }

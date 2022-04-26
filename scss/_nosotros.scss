@@ -1,0 +1,13 @@
+.centrado{
+    position: relative;
+    top: 40px;
+    left: 50px;
+    display: grid;
+
+    grid-template-columns: 70%;
+
+    grid-template-rows: 20%;
+
+    grid-template-areas: unset;
+
+}

@@ -3,15 +3,112 @@
     display: none;
   }
 }
-h1 {
-  color: black;
-  text-decoration: underline;
-  animation-duration: 2s;
-  animation-name: aparecer;
-  animation-iteration-count: initial;
+.social {
+  position: fixed;
+  left: 0;
+  top: 300px;
+  z-index: 2000;
 }
 
+.social ul {
+  list-style: none;
+}
+
+.social ul li a {
+  display: inline-block;
+  color: #fff;
+  background: #000;
+  padding: 30px 25px;
+  text-decoration: none;
+  -webkit-transition: all 500ms ease;
+  -o-transition: all 500ms ease;
+  transition: all 500ms ease;
+}
+
+.social ul li .icon-facebook {
+  background: #3b5998;
+}
+
+.social ul li .icon-twitter {
+  background: #00abf0;
+}
+
+.social ul li .icon-googleplus {
+  background: #d95232;
+}
+
+.social ul li a:hover {
+  background: #000;
+  padding: 10px 30px;
+}
+
+.principio {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.principio {
+  width: 100%;
+  padding: 40px;
+  color: white;
+  text-align: center;
+  background: #f04949;
+}
+
+nav ul {
+  background: #fca8e3;
+  text-align: center;
+  list-style: none;
+  overflow: hidden;
+}
+
+nav ul li {
+  display: inline-block;
+  padding: 20px;
+  transition: all ease-in-out 250ms;
+}
+
+ul li:hover {
+  background: #112d4e;
+}
+
+ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+.hide {
+  padding: 16px;
+  font-size: 22px;
+  background: #112d4e;
+  color: white;
+  cursor: pointer;
+  display: none;
+}
+
+@media (max-width: 768px) {
+  ul li {
+    width: 100%;
+    padding: 15px;
+    text-align: left;
+  }
+
+  .hide {
+    display: block;
+  }
+
+  nav ul {
+    display: none;
+  }
+}
 .inicio {
+  position: relative;
+  top: 40px;
   display: grid;
   grid-template-columns: 70%;
   grid-template-rows: 20%;
@@ -23,14 +120,8 @@ h1 {
 }
 
 .image {
-  width: 50%;
-}
-
-header {
-  display: grid;
-  grid-template-columns: 30%;
-  grid-template-rows: 30%;
-  grid-template-areas: unset;
+  position: relative;
+  width: 70%;
 }
 
 p {
@@ -153,3 +244,15 @@ header {
 .form-row button:active {
   background-color: darkblue;
 }
+
+.centrado {
+  position: relative;
+  top: 40px;
+  left: 50px;
+  display: grid;
+  grid-template-columns: 70%;
+  grid-template-rows: 20%;
+  grid-template-areas: unset;
+}
+
+
