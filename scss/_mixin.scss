@@ -1,0 +1,6 @@
+@mixin prefijo ($valor){
+    display: $valor;
+}
+
+.hide {@include prefijo(block)}
+
