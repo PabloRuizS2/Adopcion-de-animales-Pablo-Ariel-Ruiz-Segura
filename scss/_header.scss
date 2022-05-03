@@ -41,8 +41,9 @@
     font-size: 22px;
     background: #112d4e;
     color: #ffffff;
-    cursor: pointer;
-    display: none;
+    cursor:pointer;
+    display:none;
+    text-decoration: none;
   }
   
   @media (max-width: 768px) {
@@ -83,7 +84,8 @@
 
 p{font-style: italic; background-color: burlywood;
 }
-
+.video{position: relative;
+width: 70%;}
 ol li{text-decoration: underline;list-style: circle;}
 body{
     background-image: url("../imagenes/img\ de\ fondo.jpg")

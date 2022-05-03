@@ -80,6 +80,7 @@ ul li a {
   color: #ffffff;
   cursor: pointer;
   display: none;
+  text-decoration: none;
 }
 
 @media (max-width: 768px) {
@@ -118,6 +119,11 @@ ul li a {
 p {
   font-style: italic;
   background-color: burlywood;
+}
+
+.video {
+  position: relative;
+  width: 70%;
 }
 
 ol li {
@@ -245,6 +251,10 @@ header {
   grid-template-columns: 70%;
   grid-template-rows: 20%;
   grid-template-areas: unset;
+}
+
+.hide {
+  display: block;
 }
 
 /*# sourceMappingURL=style.css.map */
