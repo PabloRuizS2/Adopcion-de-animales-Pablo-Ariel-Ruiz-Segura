@@ -1,6 +1,6 @@
 @media (max-width: 468px)
 {   
-.social {
+  .social {
     position: fixed;
     left: 0;
     top: 300px;
@@ -82,9 +82,10 @@
     color: #ffffff;
     cursor: pointer;
     display: none;
+    text-decoration: none;
   }
   
-  
+  @media (max-width: 768px) {
     ul li {
       width: 100%;
       padding: 15px;
@@ -120,6 +121,11 @@
   p {
     font-style: italic;
     background-color: burlywood;
+  }
+  
+  .video {
+    position: relative;
+    width: 70%;
   }
   
   ol li {
@@ -242,12 +248,59 @@
   .centrado {
     position: relative;
     top: 40px;
-    left: 50px;
+    left: 300px;
     display: grid;
     grid-template-columns: 70%;
     grid-template-rows: 20%;
     grid-template-areas: unset;
   }
-
+  
+  .titulo {
+    position: relative;
+    top: 50px;
+  }
+  
+  .hide {
+    display: block;
+  }
+  
+  .donaciones1 {
+    position: relative;
+    top: 50%;
+    left: 18%;
+    display: grid;
+    grid-template-columns: 70%;
+    grid-template-rows: 20%;
+    grid-template-areas: unset;
+  }
+  
+  .donar {
+    position: relative;
+    top: 50%;
+    left: 38%;
+    display: grid;
+    grid-template-columns: 70%;
+    grid-template-rows: 80%;
+    grid-template-areas: unset;
+  }
+  
+  .gatos {
+    position: relative;
+    top: 40px;
+    left: 300px;
+    display: grid;
+    grid-template-columns: 70%;
+    grid-template-rows: 20%;
+    grid-template-areas: unset;
+  }
+  
+  .gatosimg {
+    position: relative;
+    width: 70%;
+  }
+  
   /*# sourceMappingURL=style.css.map */
+   }
+
+
   

@@ -48,11 +48,11 @@
   padding: 40px;
   color: white;
   text-align: center;
-  background: #f04949;
+  background: #5f44f8;
 }
 
 nav ul {
-  background: #fca8e3;
+  background: #4212f0;
   text-align: center;
   list-style: none;
   overflow: hidden;
@@ -65,7 +65,7 @@ nav ul li {
 }
 
 ul li:hover {
-  background: #112d4e;
+  background: #1669c7;
 }
 
 ul li a {
@@ -76,7 +76,7 @@ ul li a {
 .hide {
   padding: 16px;
   font-size: 22px;
-  background: #112d4e;
+  background: #1d68bd;
   color: #ffffff;
   cursor: pointer;
   display: none;
@@ -134,7 +134,7 @@ ol li {
 body {
   background-image: url("../imagenes/img de fondo.jpg");
   background-repeat: no-repeat;
-  background-color: darksalmon;
+  background-color: rgb(250, 143, 232);
   background-size: cover;
   background-attachment: fixed;
   font-family: Georgia, "Times New Roman", Times, serif;
@@ -245,16 +245,63 @@ header {
 
 .centrado {
   position: relative;
-  top: 40px;
-  left: 50px;
+  top: 10%;
+  left: 20%;
   display: grid;
   grid-template-columns: 70%;
   grid-template-rows: 20%;
   grid-template-areas: unset;
 }
 
+.titulo {
+  position: relative;
+  top: 50px;
+}
+
+.titnos {
+  position: relative;
+  top: 50%;
+  left: 40%;
+  text-decoration: underline;
+}
+
 .hide {
   display: block;
+}
+
+.donaciones1 {
+  position: relative;
+  top: 50%;
+  left: 18%;
+  display: grid;
+  grid-template-columns: 70%;
+  grid-template-rows: 20%;
+  grid-template-areas: unset;
+}
+
+.donar {
+  position: relative;
+  top: 50%;
+  left: 38%;
+  display: grid;
+  grid-template-columns: 70%;
+  grid-template-rows: 80%;
+  grid-template-areas: unset;
+}
+
+.gatos {
+  position: relative;
+  top: 40px;
+  left: 300px;
+  display: grid;
+  grid-template-columns: 70%;
+  grid-template-rows: 20%;
+  grid-template-areas: unset;
+}
+
+.gatosimg {
+  position: relative;
+  width: 70%;
 }
 
 /*# sourceMappingURL=style.css.map */

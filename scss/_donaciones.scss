@@ -1,0 +1,25 @@
+.donaciones1{position: relative;
+    top:50% ;
+    left: 18%;
+    display: grid;
+
+    grid-template-columns: 70%;
+
+    grid-template-rows: 20%;
+
+    grid-template-areas: unset;
+}
+.donar{
+    
+
+    position: relative;
+    top:50% ;
+    left: 38%;
+    display: grid;
+
+    grid-template-columns: 70%;
+
+    grid-template-rows: 80%;
+
+    grid-template-areas: unset;
+}
