@@ -26,17 +26,84 @@
          
       </nav>
     </header>
-    <section>
-   <nav class="donaciones1">
-        <h1>Tu aporte nos permite continuar llevando a cabo actividades sanitarias, educativas y de asistencialismo.</h1>
-<p>Los aportes económicos son importantes para pagar tratamientos, estudios médicos y honorarios veterinarios, comprar insumos y alimento, financiar campañas de castración en zonas carenciadas, imprimir material de difusión entre otros.</p>
-<form class="donar" action="https://www.paypal.com/donate" method="post" target="_top">
-  <input type="hidden" name="hosted_button_id" value="7NC2T8SNXRLWY" />
-  <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" border="0" name="submit" title="PayPal - The safer, easier way to pay online!" alt="Donate with PayPal button" />
-  <img alt="" border="0" src="https://www.paypal.com/en_AR/i/scr/pixel.gif" width="1" height="1" />
-  </form>
-  
-</nav>
+    
+      <section class="Donaciones">
+        <div class="container">
+          
+          <p class="my-5">
+            Tu aporte nos permite continuar llevando a cabo actividades sanitarias, educativas y de asistencialismo.
+            Los aportes económicos son importantes para pagar tratamientos, estudios médicos y honorarios veterinarios, comprar insumos y alimento, financiar campañas de castración en zonas carenciadas, imprimir material de difusión entre otros.
+          </p>
+        </div>
+        
+        <div class="content">
+         
+          <div id="donation-options">
+            <button id="donation-online" class="button-active" onclick="online()">
+              Dona en línea
+            </button>
+            
+          </div>
+        
+          <!-- Pago en linea -->
+          <div id="information-online">
+            <h4>Las donaciones en linean se hacen mediante paypal</h4>
+            <div id="logo-paypal">
+              <em class="fab fa-paypal"></em>
+              <h5>
+                <span class="pay">Pay</span><span class="pal">Pal</span>
+              </h5>
+            </div>
+           
+           
+            
+            
+            <div class="additional">
+              <p class="note"> 
+                Si desea hacer su donación deducible de impuestos por favor 
+                presione <b>deducible</b> y complete la siguiente forma.
+              </p>
+              <label> Deducible
+                <input 
+                  type="checkbox" 
+                  id="deducible" 
+                  name="deducible" 
+                  value="deducible" 
+                  onclick="viewDeducible()"
+                >
+              </label>
+            </div>
+            
+            
+            <div id="information-donor">
+              <div class="row">
+                <label for="name">Nombre completo o Razón social: </label>
+                <input type="text" id="sujeto" name="name" />
+              </div>
+              <div class="row">
+                <label for="rfc">RFC:</label>
+                <input type="text" id="rfc" name="rfc" />
+              </div>
+              <div class="row">
+                <label for="email">
+                  Correo electrónico:
+                </label>
+                <input type="text" id="email" name="email" />
+              </div>
+            </div>
+            <form action="https://www.paypal.com/donate" method="post" target="_blank">
+              <input type="hidden" name="hosted_button_id" value="7NC2T8SNXRLWY" />
+              <button onclick = "addDonador();" id = "donation" type="submit">Donar ahora</button>
+            </form>
+          </div>
+            
+        
+          
+          
+        </div>
+        
+        <h5>¡Agradecemos tu apoyo!</h5>
+      
 
 </section>
 <footer>

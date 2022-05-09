@@ -1,25 +1,142 @@
-.donaciones1{position: relative;
-    top:50% ;
-    left: 18%;
-    display: grid;
-
-    grid-template-columns: 70%;
-
-    grid-template-rows: 20%;
-
-    grid-template-areas: unset;
+* {
+    margin: 0;
+    padding: 0;
 }
-.donar{
+button, a {
+    cursor: pointer;
+}
+button:hover, a:hover {
+    opacity: 0.5;
+}
+
+section {
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+section p {
+    font-size: 18px;
+}
+section .content {
+    margin-bottom: 25px;
+    padding: 25px;
+    width: 500px;
+    background-color: white;
+
+}
+section .content #donation-options {
+    display: flex;
+    justify-content: center;
+}
+section .content #donation-options button {
+    font-size: 14px;
+    font-weight: bold;
+    font-family: "Asap", sans-serif;
+    width: 150px;
+    height: 45px;
+    background-color: #05749E;
+    color: FFF;
+    border: 1px solid #05749E;
+}
+section .content #donation-options button:hover {
+    background-color: #05749E !important;
+    color: #FFFFFF !important;
+}
+
+section .content #information-online {
+    display: flex;
+   
+    margin: 15px 0;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+section .content #information-online p, section .content #information-online #check-deducible {
+    margin: 5px 0;
+}
+section .content #information-online h4 {
+    color: #009CDE;
+    text-align: center;
+    font-size: 16px;
+}
+section .content #information-online #logo-paypal {
+    margin: 15px 0;
+    display: flex;
+    font-size: 25px;
+}
+section .content #information-online #logo-paypal em {
+    margin-right: 5px;
+    color: #003087;
+}
+section .content #information-online #logo-paypal .pay {
+    color: #003087;
+}
+section .content #information-online #logo-paypal .pal {
+    color: #009CDE;
+}
+section .content #information-online .additional {
+    margin: 5px 0;
+}
+section .content #information-online .additional label {
+    display: flex;
+    height: 30px;
+    align-items: center;
+}
+section .content #information-online .additional label input {
+    margin-left: 5px;
+}
+section .content #information-online .information-donation .amount {
+    display: flex;
+}
+section .content #information-online .information-donation .amount button, section .content #information-online .information-donation .amount input {
     
+    width: 125px;
+    height: 35px;
+}
+section .content #information-online .information-donation .amount .middle {
+    margin: 0 5px;
+}
+section .content #information-online .information-donation .amount .delete-left {
+    margin-left: 0;
+}
+section .content #information-online .information-donation .amount input {
+    text-align: center;
+    max-width: 125px;
+}
+section .content #information-online .information-donation select {
+    width: 100%;
+    margin: 10px 0;
+}
 
-    position: relative;
-    top:50% ;
-    left: 38%;
-    display: grid;
-
-    grid-template-columns: 70%;
-
-    grid-template-rows: 80%;
-
-    grid-template-areas: unset;
+section .content #information-online #information-donor {
+    display: none;
+    flex-direction: column;
+    font-size: 12px;
+    width: 100%;
+}
+section .content #information-online #information-donor .row {
+    display: flex;
+    margin: 10px 0;
+}
+section .content #information-online #information-donor .row label {
+    width: 250px;
+    color: #003087;
+    font-weight: bold;
+}
+section .content #information-online #information-donor .row input {
+    color: #009CDE;
+}
+section .content #information-online #donation {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    width: 200px;
+    background-color: #05749E;
+    border: 0;
+    height: 50px;
+    color: #FFFFFF;
+    font-weight: bold;
 }
