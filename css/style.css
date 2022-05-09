@@ -100,7 +100,7 @@ ul li a {
 }
 .inicio {
   position: relative;
-  top: 40px;
+  top: 1250px;
   display: grid;
   grid-template-columns: 70%;
   grid-template-rows: 20%;
@@ -437,7 +437,7 @@ section .content #information-online #donation {
 
 .gatos {
   position: relative;
-  top: 40px;
+  top: 1050px;
   left: 300px;
   display: grid;
   grid-template-columns: 70%;
