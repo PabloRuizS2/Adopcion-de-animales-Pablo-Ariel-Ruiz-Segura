@@ -83,12 +83,14 @@ ul li a {
   text-decoration: none;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 399px) {
   ul li {
     width: 100%;
     padding: 15px;
     text-align: left;
   }
+
+
 
   .hide {
     display: block;
@@ -98,9 +100,10 @@ ul li a {
     display: none;
   }
 }
+@media (max-width: 368px){
 .inicio {
   position: relative;
-  top: 1250px;
+  top: 30cm;
   display: grid;
   grid-template-columns: 70%;
   grid-template-rows: 20%;
@@ -110,7 +113,7 @@ ul li a {
   animation-name: aparecer;
   animation-iteration-count: initial;
 }
-
+}
 .image {
   position: relative;
   width: 70%;
@@ -243,6 +246,7 @@ header {
   background-color: rgb(10, 1, 139);
 }
 
+@media (max-width: 368px){
 .centrado {
   position: relative;
   top: 10%;
@@ -251,6 +255,7 @@ header {
   grid-template-columns: 70%;
   grid-template-rows: 20%;
   grid-template-areas: unset;
+}
 }
 
 .titulo {
@@ -261,7 +266,7 @@ header {
 .titnos {
   position: relative;
   top: 50%;
-  left: 40%;
+  
   text-decoration: underline;
 }
 
@@ -435,14 +440,16 @@ section .content #information-online #donation {
   font-weight: bold;
 }
 
+@media (max-width: 368px){
 .gatos {
   position: relative;
   top: 1050px;
-  left: 300px;
+  left: 50%;
   display: grid;
   grid-template-columns: 70%;
   grid-template-rows: 20%;
   grid-template-areas: unset;
+}
 }
 
 .gatosimg {

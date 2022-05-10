@@ -1,4 +1,4 @@
-@media (max-width: 468px)
+@media (max-width: 488px)
 {   
   .social {
     position: fixed;
@@ -85,7 +85,7 @@
     text-decoration: none;
   }
   
-  @media (max-width: 768px) {
+ 
     ul li {
       width: 100%;
       padding: 15px;
@@ -99,14 +99,14 @@
     nav ul {
       display: none;
     }
-  }
+  
   .inicio {
     position: relative;
-    top: 40px;
+    top: 10px;
     display: grid;
     grid-template-columns: 70%;
     grid-template-rows: 20%;
-    grid-template-areas: unset;
+    
     justify-content: center;
     animation-duration: 2s;
     animation-name: aparecer;
